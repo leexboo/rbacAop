@@ -17,10 +17,6 @@ import java.lang.reflect.Method;
 public class PermissionAspect {
 
     /**
-     * 切入点
-     * 切入点为包路径下的：execution(public * org.ylc.note.aop.controller..*(..))：
-     * org.ylc.note.aop.Controller包下任意类任意返回值的 public 的方法
-     * <p>
      * 切入点为注解的： @annotation(VisitPermission)
      * 存在 VisitPermission 注解的方法
      */
